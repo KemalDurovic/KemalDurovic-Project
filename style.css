@@ -1,3 +1,6 @@
+  html{
+    scroll-behavior: smooth;
+  }
   .logo{
     float: right;
     width: 120px;
@@ -36,11 +39,10 @@
   }
   
   body {
-    background-image: url('restoran.jpg'), url('lik.jpg');
+    background-image: url('restoran.jpg'), url('kuuu.jpg');
     background-repeat: no-repeat, no-repeat;
-    background-position: top, bottom;
-    background-size:100%;
-    
+    background-position:top,bottom;
+    background-size:100%,100%;
   }
 h2 {
   
@@ -85,27 +87,27 @@ footer {
   color:black;
   width: 70%;
   height: 100%;
-  border-radius: 5%;
+  border-radius: 10px;
   font-size:140% ;
   font-family:"Lucida Handwriting";
-  padding:10px;
-  margin:2% !important;
+  padding:5px;
+  margin:5% !important;
   height:90%;
 }
 #slika:hover{
 
 border-radius: 50%;
 }
-.reservation-button {
-  display: block;
-  width: 50%;
-  font-size: 100%;
-  color: white;
-  background-color: black;
-  border: none;
-  border-radius: 10px;
-  text-align: center;
-  margin:auto;
+.reservation-button{
+display: block;
+width: 50%;
+font-size: 100%;
+color: white;
+background-color:#eda114 ;
+border: none;
+border-radius: 10px;
+text-align: center;
+margin:auto;
 }
 .random{
 background-color: #e39c19b6;
@@ -192,4 +194,108 @@ display: inline-block;
   .div4{
     width: 100%;
     height: 100%;
+  }
+  .form-group5{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #dc9110;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #8410dcdd;
+}
+.div7{
+  color: white;
+  font-size: 150%;
+  background-color: #dc9110;
+  pad:1%;
+  width: 65%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;}
+ 
+  .menu-item{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 13%;
+    text-align: center;
+  }
+  .menu-item2{
+    margin-bottom: 30px;
+    margin-top: 190px;
+    display: inline-block;
+    margin-left: 35%;
+  }
+  .menu-item img{
+    width: 45%;
+    max-width: 100%;
+    border-radius: 20%;
+    border: 5px solid orange;
+  }
+  .menu-item2 img{
+    width: 50%;
+    max-width: 100%;
+    border-radius: 20%;
+    border: 5px solid orange;
+  }
+  .paragraph{
+    background-color: #dc9110d6;
+    width: 46%;
+    margin-left: 27%;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+  }
+  .h44{
+    background-color: #dc9110d7;
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 10px;
+    color: white;
+  }
+  .h45{
+    background-color: #dc9110d7;
+    width: 23%;
+    margin-left: 16%;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+
+  }
+  .price{
+    background-color: #dc9110d6 ;
+    width: 7%;
+    color: white;
+    margin-left: 47%;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  .price1{
+    background-color: #dc9110d6 ;
+    width: 7%;
+    color: white;
+    margin-left: 23%;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  .paragraph1{
+    background-color: #dc9110d6;
+    width: 49%;
+    margin-left: 2%;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
   }
