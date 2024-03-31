@@ -299,3 +299,7 @@ display: inline-block;
     text-align: center;
     font-size: 18px;
   }
+.ggg img{
+  width: 120px;
+  padding-bottom: 10px;
+}
